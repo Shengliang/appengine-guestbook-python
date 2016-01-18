@@ -1,0 +1,34 @@
+
+<script key="2xCIukTa09gJIcJPd8lb150MoSP5C5gU" type="CLIENT" name="menu"><![CDATA[exports.isMenuOpen = false;
+
+exports.close = function() {
+  if (exports.isMenuOpen) {
+    window.setTimeout( require('menu').toggle() , 400);
+  }
+};
+
+exports.toggle = function() {
+  var menu = app.view.getDescendant('Menu').children.MenuWidget.children.sidemenu;
+  exports.isMenuOpen = !exports.isMenuOpen;
+  if (exports.isMenuOpen) {
+    menu.styleName = "sidemenu menu-show";
+  } else {
+    menu.styleName = "sidemenu menu-hide";
+  }
+};
+
+exports.getViewDisplayName = function(viewName) {
+  var view = app.views[viewName];
+  return view ? view.displayName : viewName;
+};
+
+
+exports.navigateToView = function(viewName) {
+  var view = app.views[viewName];
+  if (view) {
+    app.view = view;
+    require('menu').close();
+  } else {
+    require('logger').error('View "' +  viewName + '" does not exist.');
+  }
+};]]></script>

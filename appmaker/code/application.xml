@@ -1,0 +1,68 @@
+
+<application name="code" admins="ssl@google.com" adminRestricted="true" orgstoreAddress="orgstoredev.server" description="Provides a basic sliding sidebar navigation with a dynamic menu and a header bar based on the Material Design (go/spec)." theme="Material" OnAppStart="" showViewChooser="false" initialViewKey="5p52SUgzp5fuwxS3zJPk8Xas7n0jB3wy" strictMode="true" legacyPropertyLists="false" legacyPrototypeNaming="true" redirectionEnabled="false" apiAuthScopes="" analyticsEnabled="false" libraries="" cssUrls="">
+	<groups/>
+	<globalCss><![CDATA[/* =============== MENU ================ */
+.sidemenu {
+  transition: margin-left .22s ease-in;
+  -webkit-transition: margin-left .22s ease-in;
+}
+
+.menu-hide{
+    margin-left:0px;
+}
+
+.menu-show{
+    margin-left:320px;
+}
+
+/* =============== HEADER ================ */
+.header {
+  box-shadow: none;
+}
+ 
+.sidemenu {
+  z-index: 7;
+}
+
+.header-bg {
+  padding-left: 16px;
+}
+
+.appname {
+  margin-right: 24px;
+  margin-left: 24px 
+}
+
+.userimage {
+  background-color: rgba(255,255,255, 0.54);
+  margin-right: 24px;
+  margin-left: 24px 
+}
+
+.header-spacer {
+  flex-grow: 1;
+}
+
+/* =============== TOOLBAR ================ */
+.toolbar-bg > *  {
+  margin-left: 8px !important;
+  margin-right: 8px !important;
+}
+
+.toolbar-bg {
+  padding: 0 24px 0 24px;
+}
+
+/* =============== PROFILE IMG ================ */
+.profile-small {
+  border-radius: 32px;
+  height: 32px !important;
+  overflow: hidden;
+  width: 32px !important;
+}
+
+.profile-small img {
+  width: 32px !important;
+  height: auto !important;
+}]]></globalCss>
+</application>

@@ -1,0 +1,16 @@
+==================================
+#Helloworld App
+==================================
+# Try on localhost
+ dev_appserver.py helloworld
+ http://localhost:8080/
+
+# Upload helloworld
+ appcfg.py -A google.com:pi314-1156 update helloworld
+ https://pi314-1156.googleplex.com/
+
+
+# Upload guestbook
+ appcfg.py -A google.com:guestbook-119418 update guestbook
+ https://guestbook-119418.googleplex.com/
+

@@ -1,0 +1,189 @@
+
+<component key="5p52SUgzp5fuwxS3zJPk8Xas7n0jB3wy" class="Panel">
+	<property name="name" type="String">Code</property>
+	<property name="styleName" type="String"></property>
+	<property name="constrain_left" type="Boolean">true</property>
+	<property name="left" type="Number">25.0</property>
+	<property name="constrain_right" type="Boolean">false</property>
+	<property name="right" type="Number">0.0</property>
+	<property name="constrain_width" type="Boolean">true</property>
+	<property name="width" type="Number">1004.0</property>
+	<property name="constrain_minWidth" type="Boolean">false</property>
+	<property name="minWidth" type="Number">0.0</property>
+	<property name="constrain_maxWidth" type="Boolean">false</property>
+	<property name="maxWidth" type="Number">0.0</property>
+	<property name="constrain_top" type="Boolean">true</property>
+	<property name="top" type="Number">5.0</property>
+	<property name="constrain_bottom" type="Boolean">false</property>
+	<property name="bottom" type="Number">0.0</property>
+	<property name="constrain_height" type="Boolean">true</property>
+	<property name="height" type="Number">737.0</property>
+	<property name="constrain_minHeight" type="Boolean">false</property>
+	<property name="minHeight" type="Number">0.0</property>
+	<property name="constrain_maxHeight" type="Boolean">false</property>
+	<property name="maxHeight" type="Number">0.0</property>
+	<property name="restrictField" type="String"></property>
+	<property name="restrictValue" type="String"></property>
+	<property name="autoHeight" type="Boolean">false</property>
+	<property name="autoWidth" type="Boolean">false</property>
+	<property name="align" type="String">inherited</property>
+	<property name="grow" type="Number">0.0</property>
+	<property name="showValidationErrors" type="Boolean">false</property>
+	<property name="variant" type="String">background</property>
+	<property name="createChildrenOnInit" type="String">ON_INIT</property>
+	<property name="layout" type="String">fixed</property>
+	<property name="wrap" type="String">wrap</property>
+	<property name="justify" type="String">center</property>
+	<property name="alignChildren" type="String">center</property>
+	<property name="wrapAlign" type="String">stretch</property>
+	<property name="title" type="String"></property>
+	<property name="visible" type="Boolean">true</property>
+	<property name="css" type="String">this {
+
+}</property>
+	<property name="children" type="List[ComponentInfo]">
+		<component key="13_803285139" class="CustomComponent_zZzxwBs60UrSyJFf51a5SCzg5PUR3356">
+			<property name="customWidgetKey" type="AppChildKey">zZzxwBs60UrSyJFf51a5SCzg5PUR3356</property>
+			<property name="name" type="String">Menu</property>
+			<property name="styleName" type="String"></property>
+			<property name="constrain_left" type="Boolean">true</property>
+			<property name="left" type="Number">0.0</property>
+			<property name="constrain_right" type="Boolean">false</property>
+			<property name="right" type="Number">674.0</property>
+			<property name="constrain_width" type="Boolean">true</property>
+			<property name="width" type="Number">327.0</property>
+			<property name="constrain_minWidth" type="Boolean">false</property>
+			<property name="minWidth" type="Number">0.0</property>
+			<property name="constrain_maxWidth" type="Boolean">false</property>
+			<property name="maxWidth" type="Number">0.0</property>
+			<property name="constrain_top" type="Boolean">true</property>
+			<property name="top" type="Number">0.0</property>
+			<property name="constrain_bottom" type="Boolean">true</property>
+			<property name="bottom" type="Number">0.0</property>
+			<property name="constrain_height" type="Boolean">false</property>
+			<property name="height" type="Number">837.0</property>
+			<property name="constrain_minHeight" type="Boolean">false</property>
+			<property name="minHeight" type="Number">0.0</property>
+			<property name="constrain_maxHeight" type="Boolean">false</property>
+			<property name="maxHeight" type="Number">0.0</property>
+			<property name="restrictField" type="String"></property>
+			<property name="restrictValue" type="String"></property>
+			<property name="autoHeight" type="Boolean">false</property>
+			<property name="autoWidth" type="Boolean">false</property>
+			<property name="align" type="String">inherited</property>
+			<property name="grow" type="Number">0.0</property>
+			<property name="showValidationErrors" type="Boolean">false</property>
+			<property name="variant" type="String">regular</property>
+			<property name="title" type="String"></property>
+			<property name="visible" type="Boolean">true</property>
+			<property name="overrideDataSource" type="Boolean">false</property>
+			<property name="onLoad" type="String" isNull="true"/>
+			<property name="onUnload" type="String" isNull="true"/>
+			<property name="onDataLoad" type="String" isNull="true"/>
+			<property name="editorHidden" type="Boolean">true</property>
+			<property name="editorLocked" type="Boolean">true</property>
+			<property name="bindings" type="List[BindingInfo]">
+				<binding sourceExpression="properties.TLNf3eMm" targetExpression="@views._values..name" targetLiteralExpression="@views._values..name"/>
+			</property>
+			<property name="properties" type="PropertyMap[CustomProperties]">
+				<PropertyMap type="CustomProperties"/>
+			</property>
+		</component>
+		<component key="837_1406354751" class="SimpleButton">
+			<property name="name" type="String">fab</property>
+			<property name="styleName" type="String">material-icons-extended</property>
+			<property name="constrain_left" type="Boolean">false</property>
+			<property name="left" type="Number">660.0</property>
+			<property name="constrain_right" type="Boolean">true</property>
+			<property name="right" type="Number">48.0</property>
+			<property name="constrain_width" type="Boolean">true</property>
+			<property name="width" type="Number">56.0</property>
+			<property name="constrain_minWidth" type="Boolean">false</property>
+			<property name="minWidth" type="Number">0.0</property>
+			<property name="constrain_maxWidth" type="Boolean">false</property>
+			<property name="maxWidth" type="Number">0.0</property>
+			<property name="constrain_top" type="Boolean">false</property>
+			<property name="top" type="Number">654.0</property>
+			<property name="constrain_bottom" type="Boolean">true</property>
+			<property name="bottom" type="Number">48.0</property>
+			<property name="constrain_height" type="Boolean">true</property>
+			<property name="height" type="Number">56.0</property>
+			<property name="constrain_minHeight" type="Boolean">false</property>
+			<property name="minHeight" type="Number">0.0</property>
+			<property name="constrain_maxHeight" type="Boolean">false</property>
+			<property name="maxHeight" type="Number">0.0</property>
+			<property name="restrictField" type="String"></property>
+			<property name="restrictValue" type="String"></property>
+			<property name="autoHeight" type="Boolean">false</property>
+			<property name="autoWidth" type="Boolean">false</property>
+			<property name="align" type="String">inherited</property>
+			<property name="grow" type="Number">0.0</property>
+			<property name="showValidationErrors" type="Boolean">true</property>
+			<property name="variant" type="String">fab</property>
+			<property name="tabIndex" type="Number">0.0</property>
+			<property name="text" type="String">add</property>
+			<property name="enabled" type="Boolean">true</property>
+			<property name="title" type="String"></property>
+			<property name="visible" type="Boolean">true</property>
+			<property name="onLoad" type="String" isNull="true"/>
+			<property name="onUnload" type="String" isNull="true"/>
+			<property name="onDataLoad" type="String" isNull="true"/>
+			<property name="action" type="String">app.showDialog(app.viewFragments.TemplateDialog);</property>
+			<property name="properties" type="PropertyMap[CustomProperties]">
+				<PropertyMap type="CustomProperties"/>
+			</property>
+		</component>
+		<component key="145_1223085599" class="CustomComponent_127_223752716">
+			<property name="customWidgetKey" type="AppChildKey">127_223752716</property>
+			<property name="name" type="String">Header</property>
+			<property name="styleName" type="String"></property>
+			<property name="constrain_left" type="Boolean">true</property>
+			<property name="left" type="Number">0.0</property>
+			<property name="constrain_right" type="Boolean">true</property>
+			<property name="right" type="Number">0.0</property>
+			<property name="constrain_width" type="Boolean">false</property>
+			<property name="width" type="Number">1001.0</property>
+			<property name="constrain_minWidth" type="Boolean">false</property>
+			<property name="minWidth" type="Number">0.0</property>
+			<property name="constrain_maxWidth" type="Boolean">false</property>
+			<property name="maxWidth" type="Number">0.0</property>
+			<property name="constrain_top" type="Boolean">true</property>
+			<property name="top" type="Number">0.0</property>
+			<property name="constrain_bottom" type="Boolean">false</property>
+			<property name="bottom" type="Number">886.0</property>
+			<property name="constrain_height" type="Boolean">true</property>
+			<property name="height" type="Number">74.0</property>
+			<property name="constrain_minHeight" type="Boolean">false</property>
+			<property name="minHeight" type="Number">0.0</property>
+			<property name="constrain_maxHeight" type="Boolean">false</property>
+			<property name="maxHeight" type="Number">0.0</property>
+			<property name="restrictField" type="String"></property>
+			<property name="restrictValue" type="String"></property>
+			<property name="autoHeight" type="Boolean">false</property>
+			<property name="autoWidth" type="Boolean">false</property>
+			<property name="align" type="String">inherited</property>
+			<property name="grow" type="Number">0.0</property>
+			<property name="showValidationErrors" type="Boolean">false</property>
+			<property name="variant" type="String">regular</property>
+			<property name="title" type="String"></property>
+			<property name="visible" type="Boolean">true</property>
+			<property name="overrideDataSource" type="Boolean">false</property>
+			<property name="onLoad" type="String" isNull="true"/>
+			<property name="onUnload" type="String" isNull="true"/>
+			<property name="onDataLoad" type="String" isNull="true"/>
+			<property name="editorLocked" type="Boolean">false</property>
+			<property name="css" type="String"></property>
+			<property name="editorHidden" type="Boolean">false</property>
+			<property name="bindings" type="List[BindingInfo]"/>
+			<property name="properties" type="PropertyMap[CustomProperties]">
+				<PropertyMap type="CustomProperties"/>
+			</property>
+		</component>
+	</property>
+	<property name="action" type="String">require('menu').close();</property>
+	<property name="editorLocked" type="Boolean">false</property>
+	<property name="properties" type="PropertyMap[CustomProperties]">
+		<PropertyMap type="CustomProperties"/>
+	</property>
+	<permission name="canRead"/>
+</component>
